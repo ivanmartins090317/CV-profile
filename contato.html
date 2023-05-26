@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> 
+    <title>Contato</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="container">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="index.html">
+           <strong>IVAN ROBERTO</strong>
+          </a>
+        </div>
+        <div class="navbar-menu is-active">
+          <a href="./index.html" class="navbar-item">
+            <i class="fa fa-home mr-1"></i>
+            Inicio
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <section class="section">
+      <div class="container">
+        <div class="columns">
+          <!-- card whith photo -->
+          <div class="column is-3">
+            <div class="card">
+              <div class="card-image">
+                <figure class="image is-4by3">
+                  <img
+                    src="image/photo_perfil.jpeg"
+                    alt="photo_perfil_Ivan"
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left"></div>
+                  <div class="media-content">
+                    <p class="title is-4">Ivan Roberto Martins Barbosa</p>
+                  </div>
+                </div>
+                <span class="tag is-dark is-medium"
+                  >Javascript full stack Developer</span
+                >
+
+                <div class="content">
+                  <br />
+                  <i class="fa fa-mobile-retro"></i>
+                  +5513 981400137
+                  <br /><br />
+                  <a
+                    target="_blank"
+                    href="https://github.com/ivanmartins090317"
+                  >
+                    <p class="title is-6">
+                      <i class="fa-brands fa-github"></i>
+                      Github</p>
+                  </a>
+                  <br />
+                  <a
+                    target="_blank"
+                    href="https://www.linkedin.com/in/ivan-roberto-220ab310b/"
+                  >
+                    <p class="title is-6">
+                      <i class="fa-brands fa-linkedin"></i>
+                      Linkdin</p>
+                  </a>
+
+
+                  <br />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column is-8">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">Contato</p>
+                <button class="card-header-icon" aria-label="more options">
+                  <span class="icon">
+                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                  </span>
+                </button>
+              </header>
+              <div class="card-content">
+                <!-- Email e message -->
+                
+                <form action="https://formsubmit.co/ivanmartins.ilha@gmail.com" method="POST" >
+                  <div class="field">
+
+                    <div class="control">
+                      <input  type="text" name="name" placeholder="Name" class="input">
+                    </div> 
+
+                    <label class="label">Email</label>
+                    <div class="control has-icons-left has-icons-right">
+                    
+                      <input
+                       
+                        type="email"
+                        name="email"
+                        placeholder="email@email.com"
+
+                        class="input"
+                      />
+               
+                  
+
+                  <div class="field">
+                    <label class="label">Message</label>
+                    <div class="control">
+                      <textarea
+                        name="message"
+                        placeholder="Message"
+
+                        class="textarea"
+
+                      ></textarea>
+                    </div>
+                  </div>
+
+
+                 
+
+                  <div class="field is-grouped">
+                    <div class="control">
+                      <button class="button is-primary">Submit</button>
+                    </div>
+                  </form>  
+      
+                    <br />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </body>
+  </html>
+
